@@ -12,14 +12,14 @@ import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-
+import {ProductsProvider} from './context'
+ 
 ReactDOM.render(
-  <Router>
-      
-    <App />
-  
-  
-  </Router>,
+  <ProductsProvider>
+        <Router>
+          <App />
+        </Router>
+  </ProductsProvider>,
   document.getElementById('root')
   
 );
