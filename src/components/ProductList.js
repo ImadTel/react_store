@@ -25,7 +25,13 @@ const ProductList = props => {
                     { (context) =>{
                         return( context.products.map ( product => {
                             return (
-                                <Product key={product.id}  prod={product}      />
+                                <Product key={product.id} 
+                                         prod={product} 
+                                         addToCart={context.addToCart} 
+                                         handleDetail={context.handleDetail}  
+                                         openModal={context.openModal}  
+                                         closeModal={context.closeModal} 
+                                 />
                             );
                         }
 

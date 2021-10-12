@@ -10,6 +10,10 @@
         sint exercitation eu consectetur pariatur proident nisi.
         Anim nulla magna officia magna aute magna. Magna ex incididunt
         nulla amet.
+        Laboris ullamco aliquip esse cupidatat pariatur cillum aute. Pariatur
+        sint exercitation eu consectetur pariatur proident nisi.
+        Anim nulla magna officia magna aute magna. Magna ex incididunt
+        nulla amet.
         
         `,
         incart:false,
@@ -19,10 +23,14 @@
     },
     {
         id:2,
-        title: "title ",
+        title: "Awesome laptop",
         img:"/img/zez.jpg",
         info:
         `
+        Laboris ullamco aliquip esse cupidatat pariatur cillum aute. Pariatur
+        sint exercitation eu consectetur pariatur proident nisi.
+        Anim nulla magna officia magna aute magna. Magna ex incididunt
+        nulla amet.
         Laboris ullamco aliquip esse cupidatat pariatur cillum aute. Pariatur
         sint exercitation eu consectetur pariatur proident nisi.
         Anim nulla magna officia magna aute magna. Magna ex incididunt
@@ -44,6 +52,10 @@
         sint exercitation eu consectetur pariatur proident nisi.
         Anim nulla magna officia magna aute magna. Magna ex incididunt
         nulla amet.
+        Laboris ullamco aliquip esse cupidatat pariatur cillum aute. Pariatur
+        sint exercitation eu consectetur pariatur proident nisi.
+        Anim nulla magna officia magna aute magna. Magna ex incididunt
+        nulla amet.
         
         `,
         incart:true,
@@ -58,6 +70,10 @@
         img:"/img/zez.jpg",
         info:
         `
+        Laboris ullamco aliquip esse cupidatat pariatur cillum aute. Pariatur
+        sint exercitation eu consectetur pariatur proident nisi.
+        Anim nulla magna officia magna aute magna. Magna ex incididunt
+        nulla amet.
         Laboris ullamco aliquip esse cupidatat pariatur cillum aute. Pariatur
         sint exercitation eu consectetur pariatur proident nisi.
         Anim nulla magna officia magna aute magna. Magna ex incididunt
@@ -81,6 +97,10 @@ const Details = {
     sint exercitation eu consectetur pariatur proident nisi.
     Anim nulla magna officia magna aute magna. Magna ex incididunt
     nulla amet.
+    Laboris ullamco aliquip esse cupidatat pariatur cillum aute. Pariatur
+        sint exercitation eu consectetur pariatur proident nisi.
+        Anim nulla magna officia magna aute magna. Magna ex incididunt
+        nulla amet.
     
     `,
     incart:false,

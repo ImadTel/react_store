@@ -4,9 +4,10 @@ import styled from "styled-components";
 const CartButton = styled.button`
 text-transform : capitalize;
 font-size : 1.4 rem;
-background-color : transparent;
+background-color :  ${props => props.nocart? "green" :"transparent"} ;
 border :  solid var(--mainWhite);
-color: var(--mainYellow);
+color:  ${props => props.nocart? "black" :"var(--mainYellow)"} ;
+
 border-color: white;
 border-width : 2px;
 border-radius: 3px;
