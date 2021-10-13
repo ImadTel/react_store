@@ -9,7 +9,7 @@ import CartButton from './Button';
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand" href="#">
-            <img src="../logo192.png" alt="LOGO"  className="navbar-brand logo"  />
+            <img src="../lap.png" alt="LOGO"  className="navbar-brand img-fluid logo"  />
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
