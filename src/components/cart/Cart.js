@@ -33,7 +33,7 @@ const Cart = props => {
                         </section>
                         <CartColumn />
                         <CartList  value={value} />
-                        <CartTotals  value={value}/>
+                        <CartTotals  value={value} history={props.history}   />
 
                     </React.Fragment>
 

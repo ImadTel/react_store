@@ -88,9 +88,10 @@ const ProductsProvider = props => {
 
 
     useEffect(()=>{
-        const tax =  cartSubTotal*0.15;
+        const tax =  Math.round(cartSubTotal*0.15*1e12)/1e12;
         setCartTax(tax);
-        const total = cartSubTotal+ cartSubTotal*0.15;
+        //const total = cartSubTotal+ cartSubTotal*0.15;
+        const total=Math.round((cartSubTotal + cartSubTotal*0.15)*1e12)/1e12;
         setCartTotal(total);}
         , [cartSubTotal])
 

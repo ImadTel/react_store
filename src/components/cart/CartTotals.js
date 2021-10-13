@@ -2,8 +2,10 @@ import React from "react";
 import CartButton from "../Button";
 import { Link } from "react-router-dom";
 
+import PaypalButton from "./PaypalButton";
 
-export default function CartTotals({value}){
+
+export default function CartTotals({value,history}){
        const { clearCart,cartSubTotal,cartTax,cartTotal} = value;
     return(
         <div className="container-fluid">
@@ -15,6 +17,7 @@ export default function CartTotals({value}){
                     <h3 className="mx-5"> Subtotal :  <strong>$ <span> {cartSubTotal}</span></strong> </h3>
                     <h3  className="mx-5"> Tax : <strong>$ <span> {cartTax}</span> </strong></h3>
                     <h3  className="mx-5"> Total : <strong>$<span> {cartTotal} </span> </strong>  </h3>
+                    <div className="mx-5" ><PaypalButton  total={CartTotals}  clearCart={clearCart}   history={history} /></div>
                 </div>
             </div>
         </div>
