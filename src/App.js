@@ -14,6 +14,9 @@ import  Cart from './components/cart';
 import Details from './components/Details';
 import Modal  from './components/Modal';
 
+
+
+
 function App() {
   return (
     <React.Fragment>

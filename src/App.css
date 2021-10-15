@@ -80,3 +80,40 @@ body{
 
  height: 20%;
 }
+
+.search-bar{
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+.search-list-item{
+  
+  border-radius: 2px;
+  border: 2px solid black;
+  color: var(--mainDark);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+}
+
+.search-list-item:hover{
+  border: 2px solid black;
+  color: var(--mainWhite);
+  background-color:var(--mainDark);
+  cursor: pointer;
+
+}
+
+
+.list{
+  list-style-type: none;
+}

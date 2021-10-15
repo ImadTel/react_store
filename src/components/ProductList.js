@@ -3,17 +3,19 @@ import Product from "./Product";
 import Title from './Title';
 import { ProductConsumer } from "../context";
 
-
+import SearchBar from './SearchBar';
 const ProductList = props => {
    
 
 
     return (
         <div className="py-5">
+
+           
             <div className="container">
             <Title  name='Our' title="Products" />
             
-          
+           
             
             </div>  
             <div className="container">
